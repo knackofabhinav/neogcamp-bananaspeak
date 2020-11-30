@@ -2,17 +2,12 @@ body{
     /* background-color: rgb(238, 207, 29); */
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-image: url(bg-minonspeak.jpg);
-    
-}
-img{
-    filter: blur(2px);
+    background-image: url(bg-minonspeak.jpg);    
 }
 
 :root {
-    --primary: rgb(228, 205, 74);
+    --primary: rgba(255, 255, 255, 0.274);
 }
-
 
 h1{
     color: #ffffff;
@@ -32,6 +27,17 @@ textarea{
     background-color: var(--primary);
 }
 
+button {
+    background-color: #9423859a;
+    color: rgb(255, 230, 0);
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    
+
+}
+
 #outputBox {
     border: 1px solid ;
     width: 90%;
@@ -40,4 +46,10 @@ textarea{
     margin: 1rem;
     padding: 1rem;
     background-color:var(--primary);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffdc18, 0 0 30px #49FF18, 0 0 40px #235d94, 0 0 55px #49FF18, 0 0 75px #5a2303;
+    opacity: 1; /* Firefox */
 }
