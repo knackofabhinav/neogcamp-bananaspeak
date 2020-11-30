@@ -16,11 +16,25 @@ h1{
     font-weight: bolder;
 }
 
+img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 
+#text-input {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffdc18, 0 0 30px #49FF18, 0 0 40px #235d94, 0 0 55px #49FF18, 0 0 75px #5a2303;
+    color: #454727;
+    font-weight: bolder;
+    
 
+}
 textarea{
     width: 90%;
-    height: 10vh;
+    height: 25vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
@@ -35,17 +49,25 @@ button {
     margin: 0.5rem;
     border-radius: 1rem;
     
-
 }
 
 #outputBox {
     border: 1px solid ;
     width: 90%;
-    height: 10vh;
+    height: 25vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
     background-color:var(--primary);
+}
+
+#outputDiv {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffdc18, 0 0 30px #49FF18, 0 0 40px #235d94, 0 0 55px #49FF18, 0 0 75px #5a2303;
+    color: #454727;
+    font-weight: bolder;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

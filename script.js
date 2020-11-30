@@ -7,10 +7,10 @@ var outputText = document.querySelector("#outputDiv")
 var serverUrl = "https://api.funtranslations.com/translate/minion.json"
 
 // For Error Handling
-function errorHandling(error){
-    return "error" + error;
+function errorHandler(error) {
+    console.log("error occured", error);
+    alert("Server Takes Only 5 requests per hour so try again after sometime. Sorry :(")
 }
-
 
 // defining what to do when the button is clicked => callback
 btnTranslate.addEventListener("click", 
@@ -18,5 +18,5 @@ btnTranslate.addEventListener("click",
         fetch(serverUrl + "?text=" + inputText.value)
         .then(response => response.json())
         .then(json => outputText.innerText = json.contents.translated)
-        .catch(errorHandling)
+        .catch(errorHandler)
 })
