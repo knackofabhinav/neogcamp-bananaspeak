@@ -1,0 +1,43 @@
+body{
+    /* background-color: rgb(238, 207, 29); */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/564x/03/85/6f/03856f8f1a39ccf018f3a78a13c00a40.jpg");
+    
+}
+img{
+    filter: blur(2px);
+}
+
+:root {
+    --primary: rgb(228, 205, 74);
+}
+
+
+h1{
+    color: #ffffff;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffdc18, 0 0 30px #49FF18, 0 0 40px #235d94, 0 0 55px #49FF18, 0 0 75px #5a2303;
+    color: #454727;
+    font-weight: bolder;
+}
+
+
+
+textarea{
+    width: 90%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: var(--primary);
+}
+
+#outputBox {
+    border: 1px solid ;
+    width: 90%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    background-color:var(--primary);
+}
